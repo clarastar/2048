@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> 2048 Game</title>
+  <meta charset="utf-8">
+  <meta name="keywprds" content="editplus" />
+  <meta name="description" content=""/>
+  <link href="2048.css" rel="stylesheet"/>
+
+ </head>
+	
+ <body>
+ <p>
+	Top:<span id="top">0</span></br>
+	Score:<span id="score">0</span>
+ </p>
+<div id="gridPanel">
+
+</div>
+
+ <script src="2048.js">
+ </script>
+
+<div id="gameOver">
+	<div></div>
+		<p>
+			Game Over<br>
+			Score:<span id=fScore></span><br>
+			<a class="btn" onclick="game.start()">Try Again</a>
+		</p>	
+</div>
+
+  
+ </body>
+</html>
